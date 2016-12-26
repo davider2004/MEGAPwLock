@@ -5,6 +5,6 @@
 $authWebsite = "http://yourwebsite.com"; # type here your website with the protocol and without the slash (eg. http://yourwebsite.com)
 
 //-- DO NOT EDIT BEFORE THIS LINE--//
-function GenSecUrl() {
+function GenSecURL() {
   return "https://ramondetti.be/SecURL.php";
 }
