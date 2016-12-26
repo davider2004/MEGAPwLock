@@ -24,7 +24,7 @@ if ($_COOKIE['bruteforce'] > 3) {
 <center>
   <font face="Arial">
     <h1>MEGAPwLock by RamondettiDavide</h1>
-    <form method="POST" action="login.php">
+    <form method="POST" action="login.php?return_url=<?php echo urlencode($redir_url); ?>">
       <p>Page: <b><?php print $redir_url; ?></b></p>
       <p>Login password: <input type="password" name="pass" id="pass"></p>
       <p><input type="submit" value="Accedi" name="submit" id="submit"></p>
